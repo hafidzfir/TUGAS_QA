@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><commands version="12.5">
+<command appium="true" appiumName="FindElement and SendKeys(Element, Text)" enable="true" name="ElementSendText(Zone, Element, Index, Text)" x="120" y="523">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone_no_ocr"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='editEmail']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element index" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="salahemail@gmail.com" description="Text to Send" name="Text" pattern="" type="string"/>
+</parameters>
+</command>
+<command appium="true" appiumName="WaitForElementPresence(Element, Timeout)" enable="true" name="WaitForElement(Zone, Element, Index, Timeout)">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='editPassword']" description="Select Element to Wait For" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="true" defaultValue="10000" description="Waiting Timeout in MiliSec" name="Timeout" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)" x="120" y="692">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='editPassword']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="DeviceAction(Action)" enable="true" name="DeviceAction(Action)">
+<parameters>
+<parameter appium="true" defaultValue="BKSP" description="Name of action to perform" name="Action" pattern="" type="device_action"/>
+</parameters>
+</command>
+<command appium="true" appiumName="SendKeys(Text)" enable="true" name="SendText(Text)">
+<parameters>
+<parameter appium="true" defaultValue="tessalah" description="Text to send" name="Text" pattern="" type="string"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)" x="816" y="692">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='text_input_password_toggle']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)" x="816" y="692">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@id='text_input_password_toggle']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)" x="120" y="953">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='LOGIN']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+<command appium="true" appiumName="FindElement and Click(Element)" enable="true" name="Click(Zone, Element, Index, ClickCount)" x="75" y="1207">
+<parameters>
+<parameter appium="false" defaultValue="NATIVE" description="Select Zone" name="Zone" pattern="" type="zone"/>
+<parameter appium="true" defaultValue="xpath=//*[@text='OK']" description="Select Element" name="Element" pattern="" type="string"/>
+<parameter appium="false" defaultValue="0" description="Element Order" name="Index" pattern="" type="integer"/>
+<parameter appium="false" defaultValue="1" description="Number of Clicks" name="Click Count" pattern="" type="integer"/>
+</parameters>
+</command>
+</commands>
